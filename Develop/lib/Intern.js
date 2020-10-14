@@ -8,3 +8,4 @@ class Intern extends Employee{
     getSchool();
     getRole();
 }
+module.exports = Intern;

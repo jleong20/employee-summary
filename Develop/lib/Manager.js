@@ -7,3 +7,4 @@ class Manager extends Employee{
     }
     getRole();
 }
+module.exports = Manager;

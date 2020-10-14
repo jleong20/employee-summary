@@ -45,9 +45,11 @@ inquirer.prompt([
         name: "id"
     },
     {
-        
+        type:"input",
+        message:"email: ",
+        name: "email"
     }
 
-]).then(function(data){
+]).then(data =>{
     console.log(data);
 });
