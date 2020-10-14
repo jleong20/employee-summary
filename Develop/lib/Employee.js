@@ -24,6 +24,6 @@ class Employee{
         for (var key in this) {
             console.log(`${key}: ${this[key]}`);
           }
-    };
+    }; 
     
 }
